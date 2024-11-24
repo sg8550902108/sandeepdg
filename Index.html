@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Compressor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Compressor Tool</h1>
+    <p>Upload your image and compress it for better performance.</p>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="compressButton">Compress Image</button>
+    <div id="output">
+      <p>Compressed Image:</p>
+      <img id="compressedImage" alt="Your compressed image will appear here">
+      <a id="downloadLink" download="compressed-image.jpg">Download Compressed Image</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
